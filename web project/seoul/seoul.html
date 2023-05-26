@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" href="seoul.css">
+        
         <div style="float:left">
             <img src="./img/character.jpg" width="60" height="70">
         </div>
@@ -12,6 +17,16 @@
     </head>
 
     <body>
+        <nav>
+            <h1>menu</h1>
+            <ul class="menu">
+              <li><a href="attraction">명소</a></li>
+              <li><a href="eat">맛집</a></li>
+              <li><a href="hotel">숙소</a></li>
+              <li><a href="traffic">교통</a></li>
+            </ul>
+        </nav>
+
         <h1 style="text-align: center;">함께 공존하는 서울</a></h1>
         <br>
         <p align="middle"><iframe width="560" height="315" src="https://www.youtube.com/embed/HOCfCWJyT78" 
@@ -20,6 +35,8 @@
         </iframe></p>
         <br>
         <br>
+        <section>
+            <article id = "attraction">
         <p><h2 style="text-align: center;"><strong>서울의 명소</strong></h2></p>
         <p>
         <br>
@@ -64,11 +81,13 @@
                     모터보트 등 수상스포츠가 활발하게 이루어지며 조화를 이루는 곳입니다. </div>
             </div>
         </p>
+        </article>
         <br>
         <br>
         <br>
         <br>
         <br>
+        <article id ="eat">
         <p><h2 style="text-align: center;"><strong>서울의 맛집</strong></h2></p>
         <p>
             <br>
@@ -110,11 +129,13 @@
                      피자, 스윗 고구마 피자 등이 있습니다.</div>
             </div>
         </p>
+        </article>
         <br>
         <br>
         <br>
         <br>
         <br>
+        <article>
         <p><h2 style="text-align: center;"><strong>서울의 숙소</strong></h2></p>
         <p>
             <br>
@@ -165,5 +186,15 @@
                     브랜드 ‘세가프레도’를 운영하고 있습니다. </div>
             </div>
         </p>
+        </article>
+        <style>
+            section{
+                padding-left: 220px;
+                padding-top: 20px;
+                padding-right: 20px;
+                padding-bottom: 20px;
+                padding: 20px;
+            }
+        </style>
     </body>
 </html>
