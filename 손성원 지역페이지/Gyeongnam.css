@@ -1,0 +1,23 @@
+h1{
+    font-family: 'Black Han Sans', sans-serif;
+    font-weight: 100;
+}
+
+h2,h3,h4{
+    font-family: 'Black Han Sans', sans-serif;
+    font-weight: 10;
+}
+
+body {
+font-family: 'Poor Story', cursive;
+font-size: 20px;
+}
+
+body {
+    background-color: #f5cdc3; /* 하늘색 코드 */
+  }
+
+head, body{
+    /* 수평 중앙 정렬하기 */
+    text-align: center;
+}
